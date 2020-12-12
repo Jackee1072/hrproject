@@ -1,0 +1,33 @@
+.wrapper{
+	margin: 0 auto;
+	/*max-width: 1200px;*/
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	border: 1px silid red;
+	/*background-color: red;*/
+}
+.block{
+	border: 2px solid grey;
+	height: 250px;
+	width: 350px;
+	margin: 50px;
+	display: inline-block;
+	padding: 20px;
+
+}
+.item-container{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.item1{
+	display: flex;
+	justify-self: space-between;
+}
+
+.button{
+	
+	bottom:10px; 
+	left:10px;
+}
